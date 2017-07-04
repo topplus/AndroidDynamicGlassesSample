@@ -33,7 +33,7 @@
 
 ## 接口定义和使用说明 ##
 
-[文档](https://github.com/topplus/AndroidStaticGlassesSample/raw/master/doc/眼镜虚拟试戴AndroidSDK实时试戴使用文档.pdf)
+[文档](https://github.com/topplus/AndroidDynamicGlassesSample/raw/master/doc/眼镜虚拟试戴AndroidSDK实时试戴使用文档.pdf)
 
 ## 联系我们 ##
 

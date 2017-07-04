@@ -1,0 +1,1 @@
+include ':app', ':commonutils-release', ':dynamicglasses-release', ':render-release'

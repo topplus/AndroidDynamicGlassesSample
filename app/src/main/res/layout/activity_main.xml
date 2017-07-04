@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/multiview_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:onClick="onClick"
+        android:text="多窗口" />
+
+    <example.com.dynamicglasses.RatioDynamicGlasses
+        android:id="@+id/dynamicGlass"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="40dp" />
+
+    <ListView
+        android:id="@+id/wheelview"
+        android:layout_width="140dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/dynamicGlass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+</RelativeLayout>
